@@ -1,0 +1,69 @@
+    .vid1{
+        position: relative;
+        left: 250px;
+    }
+    .h2{
+        text-align: center;
+        font-size: 50px;
+        padding: 0px;
+    }
+    .imgh{
+        float: right;
+        width: 300px;
+        height: 200px;
+    }
+    .img1{
+        float: left;
+        height: 200px;
+        width: 300px;
+    }
+    .pre1{
+        font-size: 18px;
+    }
+    .pre2{
+        font-size: 18px;
+    }
+    .img2{
+        float: right;
+        width: 300px;
+        height: 200px;
+    }
+    .img3{
+        float: left;
+        width: 300px;
+        height: 200px;
+    }
+    table ,td ,th {
+    border-collapse: collapse;
+    border:7px  black;  
+    }
+    table{
+      width: 100%;
+    }
+    th{
+      height: 50%;
+    }
+    td{
+      text-align: center;
+    }
+    th:hover,td:hover{
+      color: white;
+      background-color: black;
+    }
+    p{
+        font-size: 22px;
+    }
+    .div1,.div2,.div3{
+        height: 200px;
+    }
+    button{
+        width: 100%;
+        height: 50px;
+        color: black;
+        background-color: goldenrod;
+        
+    }
+    .button{
+        width: 50%;
+        margin:  auto;
+    }
