@@ -1,0 +1,283 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family:sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  }
+  body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  }
+  ul {
+    list-style: none;
+    background: black;
+    text-align: center;
+    margin-top: -20px;
+    }
+    ul li {
+    display: inline-block;
+    position: relative;
+    }
+    ul li a {
+    display: block;
+    padding: 25px 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    }
+    ul li a:hover{
+      text-decoration: underline goldenrod 2px;
+    }
+   .logo{
+    float: left;
+    margin-top: 12px;
+    color: goldenrod;
+
+   }
+  video{
+    height: 495px;
+    position: relative;
+    top: 80px;
+    right: 150px;
+    left: 170px;
+    margin-left: 80px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+  }
+  .titles{
+    font-weight: 900; font-size: 40px; text-transform: uppercase;color: darkgoldenrod; text-shadow: 3px 3px 3px black;
+  }
+  
+  footer {
+    background-color: black;
+    color: #DDA15E;
+    text-align: center;
+    padding: 15px 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    margin-top: 200px;
+  }
+  i{
+    transition: transform 0.3s;
+  }
+  
+  i:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  }
+  
+  
+  /* Theme 1 mode styles */
+  :root {
+    background-image: url(WhatsApp\ Image\ 2024-04-25\ at\ 5.36.46\ PM.jpeg);
+    --text-color: #333;
+    --icon-color: #333;
+    
+  }
+  
+  
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    font-size: 30px;
+    color: var(--icon-color);
+    margin: 0 10px;
+  }
+  
+  .toggle-label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .toggle {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .toggle-switch {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .toggle-switch:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  .toggle:checked + .toggle-switch {
+    background-color: #007bff;
+  }
+  
+  .toggle:checked + .toggle-switch:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .khofo:hover{
+    width: 410px;
+    height: 410px ;
+  }
+  article img{
+    border-radius: 20px;
+    transition: 0.7s ease;
+  }
+ .lfooter{
+  padding: 40px;
+  color: #DDA15E;
+ }
+.row{
+  margin-top: 30px;
+}
+.row a:hover{
+  text-decoration: underline white 2px;
+  transition: 0.7;
+}
+.sidebar {
+  position: fixed;
+  left: -250px;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: #333;
+  transition: left 0.3s ease-in-out;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.toggle-menu {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.toggle-menu span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle-menu.active span:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.toggle-menu.active span:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#menus {
+  transition: 0.6s;
+}
+
+.sidemenu{
+  position: fixed;
+  top:0px;
+  left: 0px;
+  height: 100%;
+  width: 0px;
+  background-color: black;
+  z-index: 1;
+  padding-top: 100px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.sidemenu a {
+  padding: 8px;
+  font-size: 30px;
+  color: goldenrod;
+  display: block;
+  margin-top:20px ;
+}
+.sidemenu a:hover{
+  transition: 0.2s;
+  color: white;
+}
+
+/*  
+www.youtube.com/c/pythonlife
+www.youtube.com/c/riadhcoding
+www.youtube.com/c/pythonblack 
+*/
+.sidemenu .closebtn{
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 50px;
+  margin-left: 32px;
+}
+#mainbox{
+  width: 35px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 8px;
+  color: #fff;
+  font-size: 40px;
+  padding: 4px; 
+}
+#active {
+  color: white;
+  background-color: black;
+}

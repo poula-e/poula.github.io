@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('Premium Photo Empty wooden table top with blurred coffee shop or restaurant interior background_ can be used product display(1).jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: ;
+  }
+  .header {
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .contener{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: 700px;
+    margin-left: 400px;
+    text-align:center;
+  }
+  .search-bar {
+    margin: 20px 0;
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  button{
+    width: 60px;
+    height: 45px;
+    border-radius: 5px;
+
+  }

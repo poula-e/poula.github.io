@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+ul {
+    list-style: none;
+    background: black;
+    text-align: center;
+    margin-top: -10px;
+    }
+    ul li {
+    display: inline-block;
+    position: relative;
+    }
+    ul li a {
+    display: block;
+    padding: 25px 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    }
+    ul li a:hover{
+      text-decoration: underline goldenrod 2px;
+    }
+   .logo{
+    float: left;
+    margin-top: 12px;
+    color: #DDA15E;
+
+   }
+.title{
+    display: flex;
+    justify-content: center;
+    color: darkgoldenrod;
+    font-size: 2.2em;
+    font-weight: 750;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-shadow: 3px 3px 3px goldenrod;
+}
+.material{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #f1efc0;
+    width: 900px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.25);
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+.card:hover{
+    transform: scale(1.030);
+    transition: 0.7s ease;
+}
+.info h3{
+    color: #3d2927;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    font-size: 35px;
+}
+.info{
+    font-size:20px ;
+}
+p{
+    font-weight: bold;
+}
+.Gallerypic{
+    background-color: #f2925e;
+    width: 900px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.25);
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+img.gpic{
+    border-radius: 20px;
+    margin: 20px;
+}
+img.gpic:hover{
+    transform: scale(1.050);
+    transition: 0.5s ease;
+}
+input{
+    background-color: rgb(241, 218, 89);
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 15px;
+}
+input:hover{
+    transform: scale(1.050);
+    transition: 0.3s ease;
+    background-color: rgb(241, 212, 45);
+}
+.zr{
+    text-align:center;
+}
+/* Light mode styles */
+ :root { 
+background-image: url(WhatsApp\ Image\ 2024-04-25\ at\ 5.36.46\ PM.jpeg);
+--text-color: black;
+--icon-color: #fff;
+}
+
+/* Dark mode styles */
+.dark-mode {
+background-image: url(WhatsApp\ Image\ 2024-04-25\ at\ 5.36.46\ PM.jpeg);
+--text-color: black;
+--icon-color: #fff;
+}
+
+body {
+background-color: var(--bg-color);
+color: var(--text-color);
+transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle-container {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.icon {
+font-size: 24px;
+color: var(--icon-color);
+margin: 0 10px;
+}
+
+.toggle-label {
+position: relative;
+display: inline-block;
+width: 60px;
+height: 34px;
+}
+
+.toggle {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.toggle-switch {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+border-radius: 34px;
+}
+
+.toggle-switch:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+border-radius: 50%;
+}
+
+.toggle:checked + .toggle-switch {
+background-color: #007bff;
+}
+
+.toggle:checked + .toggle-switch:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}   
+  table{
+    border: 5px double goldenrod;
+    background-image: url(main\ page\ photo.jpeg);
+}
+
+table tr td{
+    border: 6px double black;
+}
+table tr th {
+    border: 6px double black;
+}
+table tr th:hover{
+    background-color:antiquewhite;
+}
+table tr td:hover{
+    background-color:darkgoldenrod;
+}
+table tr th,td:hover{
+    transform: scale(1.03);
+}
+h2.title{
+    font-size: 40px;
+    color: #000;
+  }
+  footer {
+    background-color: #000;
+    text-align: center;
+    padding: 15px 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+  }
+  i{
+    transition: transform 0.3s;
+  }
+  
+  i:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  }
+  .lfooter{
+    padding: 40px;
+    color: #DDA15E;
+    text-decoration: none;
+   }
+  .row{
+    margin-top: 30px;
+  }
+  .row a:hover{
+    text-decoration: underline white 2px ;
+    transition: 0.5s;
+  }
+  .next{
+    background-color: #493735;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+  }
+  .next:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    background-color: #3d2927;
+  }
+  .direction{
+    text-align: center;
+    margin-top: 50px;
+  }

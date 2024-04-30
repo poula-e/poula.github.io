@@ -1,0 +1,26 @@
+
+.div1{
+    margin-top: 100px; ;
+    margin-left: 600px;
+    content: 300px;
+    font-size: 36px;
+    }
+    .img{
+    float: left;
+  }
+  .div2 ,.div3{
+    font-size: 22px;
+    border: 2px solid black;
+    height: 280;
+  }
+  a:link{
+    color: gold;
+  }
+  a:hover{
+    color: white;
+  }
+  a:active{
+    color: red;
+  }
+
+
