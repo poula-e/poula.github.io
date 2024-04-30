@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <link rel="stylesheet" href="resturant in egypt.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>resetaurant section</title>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+  const searchButton = document.querySelector('button');
+  const searchBar = document.querySelector('.search-bar');
+
+  searchButton.addEventListener('click', function() {
+    const searchQuery = searchBar.value.toLowerCase();
+    const restaurants = document.querySelectorAll('.contener > div');
+
+    restaurants.forEach(restaurant => {
+      const restaurantName = restaurant.querySelector('h2').textContent.toLowerCase();
+      if (restaurantName.includes(searchQuery)) {
+        restaurant.style.display = 'block';
+      } else {
+        restaurant.style.display = 'none';
+      }
+    });
+  });
+});
+
+</script>
+<style>
+  /* body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('Premium Photo Empty wooden table top with blurred coffee shop or restaurant interior background_ can be used product display(1).jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: ;
+  }
+  .header {
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .contener{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: 700px;
+    margin-left: 400px;
+    text-align:center;
+  }
+  .search-bar {
+    margin: 20px 0;
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  button{
+    width: 60px;
+    height: 45px;
+    border-radius: 5px;
+
+  } */
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>welcome in resetaurant section!</h1>
+    <p>which section do you want ?</p>
+    <input type="text" class="search-bar" placeholder="food/Drinks/Dessert">
+   <button>search</button>
+  </div>
+    <div class="contener">
+
+      <div>
+        <img src="Saigon Restaurant & Lounge.jpg" alt="مطعم 1" style="width:100%; max-width:300px;">
+        <h2>Saigon Restaurant & Lounge</h2>
+        <p>About<br>
+            Fairmont Nile City’s Pan-Asian fine dining restaurant 
+            offers a unique sharing concept with a signature twist 
+            of Asian cuisine for an unmatched culinary experience</p>
+        <pre>
+    PRICE RANGE
+    $34 – $52
+        </pre>
+        <hr>
+      </div>
+      <div>
+        <img src="Koshary Abou Tarek.jpg" alt="مطعم 2" style="width:100%; max-width:300px;">
+        <h2>Koshary Abou Tarek</h2>
+        <p>About<br>
+    Koshary Abou Tarek is a prominent restaurant chain in Egypt,
+    renowned for its signature dish, Koshary. The establishment's
+    founder, Abou Tarek, began selling Koshary from a humble street
+    cart in Cairo during the 1950s.
+            </p>
+        <pre>
+    PRICE RANGE
+    $5 – $25
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="Fayruz Lebanese Restaurant.jpg" alt="مطعم 3" style="width:100%; max-width:300px;">
+        <h2>Fayruz Lebanese Restaurant</h2>
+        <p>About<br>
+    Guests familiar with the flavours and spices of Lebanese cuisine
+    will find them blended to perfection at Fayruz. for newcomers,
+    let the famously friendly staff introduce you over lunch on the
+    outdoor terrace or an exotic dinner show with live belly dancing.
+    The interior is delightfully authentic and evocative.
+        </p>
+        <pre>
+    PRICE RANGE
+    $40 – $120
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="The View Lounge and Bar.jpg" alt="مطعم 4" style="width:100%; max-width:300px;">
+        <h2>The View Lounge and Bar</h2>
+        <p>About<br>
+    The JW Marriott in Cairo is a lovely hotel. The View bar and restaurant
+    is very nice for a cocktail and also has a decent menu if you want to eat.
+    The staff is fantastic. Very friendly and welcome. Mustafa Moftah and Mustafa
+    Ramsey and Mohammed Ali were great! They took great care of my wife and I !!
+            </p>
+        <pre>
+    PRICE RANGE
+    $50 – $220
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="Scores Sports Bar & Restaurant.jpg" alt="مطعم 5" style="width:100%; max-width:300px;">
+        <h2>Scores Sports Bar & Restaurant</h2>
+        <p>About<br>
+    Join us at Scores Sports Bar & Restaurant, the newest sports bar in town,
+    located at Holiday Inn Cairo Maadi - Egypt, enjoy dining & drinking
+    overlooking the majestic Nile river
+            </p>
+        <pre>
+    PRICE RANGE
+    $4 – $21
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="Al Khal Egyptian Restaurant.jpg" alt="مطعم 6" style="width:100%; max-width:300px;">
+        <h2>Al Khal Egyptian Restaurant</h2>
+        <p>About<br>
+    Throughout the centuries, Egyptian cuisine has been part of the country’s heritage,
+    history and romantic past. At Al Khal, the finest authentic Egyptian dishes and 
+    delights are brought to you in a classic setting with a modern twist and traditionally 
+    perfect service. Enjoy the tastes and flavours of the ages created for you.
+            </p>
+        <pre>
+    PRICE RANGE
+    $12 – $30
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="Raj.jpg" alt="مطعم 7" style="width:100%; max-width:300px;">
+        <h2>Raj</h2>
+        <p>About<br>
+    Named after the “King of India”, Raj offers classic Indian cuisine with a modern touch.
+    Savor the creations of tender meat and seafood directly from the hot embers of the
+    tandoor,accompanied with soft, fresh, and hot naans, and Rotis. All in an inviting
+    atmosphere complemented by an open kitchen for a live cooking experience. Family Friendly
+            </p>
+        <pre>  
+    PRICE RANGE
+    $2 – $15
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="Culina.jpg" alt="مطعم 8" style="width:100%; max-width:300px;">
+        <h2>Culina</h2>
+        <p>About<br>
+    Casual, contemporary, all-day dining, featuring a kitchen theater with a wide selection
+    of international and local favorites with the best Friday brunch in town.
+            </p>
+        <pre>
+    PRICE RANGE
+    $21 – $32
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="La Zisa.jpg" alt="مطعم 9" style="width:100%; max-width:300px;">
+        <h2>La Zisa</h2>
+        <p>About<br>
+    La Zisa is a modern and relaxed dining space that offers authentic Southern Italian
+    cuisine where guests can enjoy their dining experience overlooking bright views of the Nile.
+            </p>
+        <pre>
+    PRICE RANGE
+    $30 – $50
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="zooba.jpg".jpg" alt="مطعم 10" style="width:100%; max-width:300px;">
+        <h2>zooba</h2>
+        <p>About<br>
+    Here at Zooba, we turn familiar Egyptian street food on its head (and dress it up a little, too).
+    We use only the freshest local produce to create simple, flavorful, gourmet dishes.We don't just
+    use locally-sourced products in our food; we also reclaim local materials and found objects to creat
+    an eclectic dining space that pays homage to the creative resourcefulness and colorful spirit of the Egyptian people.
+            </p>
+        <pre>
+    PRICE RANGE
+    $3 – $6
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="Lobby Lounge.jpg".jpg" alt="مطعم 11" style="width:100%; max-width:300px;">
+        <h2>lobby lounge</h2>
+        <p>About<br>
+          The Lobby Lounge, marked with its historic and contemporary masterpieces, the lounge offers a 24-hour dining destination in Cairo. The menu transforms throughout the day, suited for breakfast meetings and after-dinner nightcaps. Each Saturday, the lounge hosts the hotel’s signature Afternoon Tea served with a decadent chocolate display. Trio band every Thursday & Friday - Open 24 Hours.
+            </p>
+        <pre>
+    PRICE RANGE
+    $10 – $30
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="Bab El-Sharq.jpg" alt="مطعم 12" style="width:100%; max-width:300px;">
+        <h2>Bab El-Sharq</h2>
+        <p>About<br>
+          Flavors from around the Middle East are brought together at Bab El-Sharq. Set amid lush gardens with a view of the Egyptian Museum, the outdoor restaurant offers a traditional dining experience in the heart of Cairo. Mezze and signature dishes are paired with flavored shisha, live entertainment and broadcasts of major sporting events. Daily due Band, gulf singer & belly dancer.            </p>
+        <pre>
+    PRICE RANGE
+    $10 – $31
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="El-khan Restaurant.jpg" alt="مطعم 13" style="width:100%; max-width:300px;">
+        <h2>El-khan Restaurant</h2>
+        <p>About<br>
+          “ El-Khan “ is an oriental restaurant where you can enjoy a truly authentic unforgettable dining experience, flavors from around the Middle East are brought together, we are looking forward to have you to make sure you leave with a happy tummy.</p>
+                <pre>
+    PRICE RANGE
+    $22 – $43
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="Noble House.jpg" alt="مطعم 14" style="width:100%; max-width:300px;">
+        <h2>Noble House</h2>
+        <p>About<br>
+          Modern Chinese cuisine where taste surpasses expectation; partnered by three Teppanyaki grills, the restaurant menu reflects mainly Cantonese cuisine but not neglecting other reigns. Rich and tasteful black bean beef is the Chef's specialty making it difficult to resist. The authentic Chinese deco can only enhance the atmosphere and contribute to the fine dining experience. Dress code: Smart casual, Family Friendly</p>
+    <pre>
+    PRICE RANGE
+    $18 – $22
+        </pre>
+      </div>
+      <hr>
+      <div>
+        <img src="Revolving Restaurant.jpg" alt="مطعم 15" style="width:100%; max-width:300px;">
+        <h2>Revolving Restaurant</h2>
+        <p>About<br>
+          The most spectacular restaurant in all of Cairo, the Revolving Restaurant provides diners with a staggering panoramic view of the Nile River, the Pyramids and the ancient cosmopolitan city of Cairo while they savor culinary delights from an international gourmet menu, prepared in the restaurant’s show kitchen. Rotating 360 degrees in one hour and 45 minutes, the Revolving Restaurant is an exclusive enclave of calm over an otherwise hectic Cairo; bringing a unique panoramic focus to the city. Indulge in the romance with our daily romantic menu with your loved one and enjoy the live entertainment every Thursday ,Friday and Saturday  </p>
+           <pre>
+    PRICE RANGE
+    $18 – $22
+        </pre>
+      </div>
+
+    </div>
+ </div>
+</body>
+</html>
