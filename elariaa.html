@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="utf-8">
+    <title> HTML5 | elaria armia </title>
+<style>
+    *{
+	list-style: none;
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family:sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  }
+  body{
+    background-image: url(eee.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+  }
+  ul {
+    list-style: none;
+    background: black;
+    text-align: center;
+    margin-top: -20px;
+    }
+    ul li {
+    display: inline-block;
+    position: relative;
+    }
+    ul li a {
+    display: block;
+    padding: 25px 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    }
+    ul li a:hover{
+      text-decoration: underline goldenrod 2px;
+    }
+   .logo{
+    float: left;
+    margin-top: 12px;
+    color: goldenrod;
+
+   }
+.wrap
+{
+    width: 800px;
+    height: 700px;
+    margin: 30px auto;
+}
+
+table{font-size: 30px;}
+
+td{
+padding: 10px 20px 0px 0px;
+}
+
+.txt
+{
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+}
+.txtarea {
+    width: 830px;
+    height: 150px;
+    border-radius: 8px;
+}
+.btn{
+    width: 830px;
+    height: 50px;
+    background-color: #ffae00;
+    border-radius: 8px;
+    font-size: 20px;
+    color: black;
+}
+:root {
+    --text-color: #333;
+    --icon-color: #333;
+    
+  }
+  
+  
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    font-size: 30px;
+    color: var(--icon-color);
+    margin: 0 10px;
+  }
+  
+  .toggle-label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .toggle {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .toggle-switch {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .toggle-switch:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  .toggle:checked + .toggle-switch {
+    background-color: #007bff;
+  }
+  
+  .toggle:checked + .toggle-switch:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+</style>
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+ <body>
+  <header>
+    <ul>
+     <div id="mainbox" onclick="openFunction()" style="margin-bottom: -40px;">&#9776;</div>  
+     <div id='menus' class="sidemenu">
+     <a href="project.html" id="active">Home</a>
+     <a href="sv.html">Buy now!</a>
+     <a href="elham1.html"> history</a>
+     <a href="resturant in egypt.htm">Restuaurant</a>
+     <a href="elham2.html">activity to do</a>
+     <a href="elariaa.html">Feedback</a>
+     <a href="tick.html">tickets and TW</a>
+     <a href="" class="closebtn" onclick="closeFunction()">&times;</a>
+     </div>
+         <img src="—Pngtree—egyptian key to life symmetrical_6929846.png" style="width: 70px;height: 60px;float: left; margin-left: 60px;"> 
+         <h1 class="logo">KEY EGYPT</h1>
+          <li class="section"><a href="project.html">Home</a></li>
+          <li class="section"><a href="uni.html">Places to go</a></li>
+          <li class="section"><a href="sv.html">Shop store</a></li>
+          <li class="section"><a href="contac.html">Contact us</a></li>
+          <li class="section"><a href="aya.html">Log out</a></li>
+          <div class="toggle-container" style="float: right;padding-top: 10px;">
+           <h2 style="text-decoration: underline goldenrod; margin: 10px; color: white;">Theme1</h2>
+           <label class="toggle-label" for="toggle">
+             <input type="checkbox" class="toggle" id="toggle">
+             <span class="toggle-switch"></span>
+           </label>
+           <h2 style="text-decoration: underline goldenrod; margin: 10px; color: white;">Theme2</h2>
+     
+         </div>
+         <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+			 <script src="scripts.js"></script>
+		 
+		   </ul>
+	   </header>
+    <div class="wrap">
+        <table>
+            <form action="" method="" >
+                <h1 style="font-size: 40px;
+                color: black;
+                text-align: center;
+                border-bottom: 2px solid #ffae00;">Feedback Form</h1>
+                <tr>
+                    <td colspan="2">
+                    <label>How do you rate this page</label>
+                 <br>
+                    <input type="radio" name="rate" value="bad">Bad
+                    <input type="radio" name="rate" value="average">Average
+                    <input type="radio" name="rate" value="good">Good
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Fullname*</label>
+                        <br>
+                        <input type="text" name="Fullname" class="txt">
+                    </td>
+
+                    <td>
+                        <label>Email*</label>
+                        <br>
+                        <input type="email" name="email"  class="txt">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Age*</label>
+                        <br/>
+                        <input type="text" name="age"  class="txt">
+                    </td>
+                    <td>
+                        <label>Phone*</label>
+                        <br/>
+                        <input type="text" name="phone"  class="txt">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Message</label>
+                        <br>
+                        <textarea class="txtarea"> </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" class="btn">send</button></td>
+                </tr>
+            </form>
+        </table> 
+    </div>
+
+
+
+
+

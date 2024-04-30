@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+ul {
+    list-style: none;
+    background: black;
+    text-align: center;
+    margin-top: -20px;
+    }
+    ul li {
+    display: inline-block;
+    position: relative;
+    }
+    ul li a {
+    display: block;
+    padding: 25px 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    }
+    ul li a:hover{
+      text-decoration: underline goldenrod 2px;
+    }
+   .logo{
+    float: left;
+    margin-top: 12px;
+    color: goldenrod;
+   }
+   :root {
+    background-image: url(WhatsApp\ Image\ 2024-04-25\ at\ 5.36.46\ PM.jpeg);
+    --text-color: #333;
+    --icon-color: #333;
+    
+  }
+  
+  
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    font-size: 30px;
+    color: var(--icon-color);
+    margin: 0 10px;
+  }
+  
+  .toggle-label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .toggle {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .toggle-switch {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .toggle-switch:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  .toggle:checked + .toggle-switch {
+    background-color: #007bff;
+  }
+  
+  .toggle:checked + .toggle-switch:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+.first 
+{
+   
+    margin-left: 50px;
+   width: 70%;
+   
+   
+}
+.sec{
+    width: 100%;
+    text-align: center;
+    margin-left: 50px;
+   margin-bottom: 400px;
+    height: 400px;
+}
+
+
+.info{
+    margin-top: 100px;
+    margin-right: 200px;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+   
+
+  
+   
+   
+}
+
+.info p{
+line-height: 1.7em;
+font-size: large;
+text-shadow: 1px 1px 2px  #242321;
+font-weight: bold;
+
+
+
+
+}
+.title{
+    font-size: xx-large;
+   margin-top: 70px;
+color: #242321;
+text-shadow: 2px 1px 4px black;
+font-weight: 900; 
+font-style: italic;
+
+}
+
+.top-image img{
+    float: left;
+    height: 400px; 
+margin-right: 50px ;
+}
+
+.top-image{
+    border-radius: 20px;
+  
+}
+.image img{
+    float: left;
+    margin-right: 50px ;
+    
+}
+.image-sp img{
+    width:300px;
+    float: left;
+    margin-right: 50px ;
+}
+.info h2{
+color: rgb(221, 171, 34);
+text-shadow: 1px 1px 3px black;
+}
+.video {
+    width: 100%;
+    height: 500px;
+    background-image: url("Premium Photo _ Room interior in ancient Egyptian style.jpg");
+    
+}
+.video video{
+    padding-top: 20PX;
+    width: 30%;
+    float: left;
+    margin-left: 200px;
+    margin-top: 140px;
+    
+}
+table{
+    width: 100%;
+    
+    font-size: large;
+    border: #d39e2a;
+    box-shadow: 2px 2px 3px black;
+    text-shadow: 1px 1px 1px black;
+}
+table tr th{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    color: #242322;
+   border-width: 4px;
+}
+table tr td{
+    
+    color: #0f0f0f9d;
+    text-shadow: 1px 1px 1px black;
+    border-width: 4px;
+}
+.first-info{
+    width: 80%;
+    margin-left: 90px;
+}
+.lfooter{
+    padding: 40px;
+    color: #DDA15E;
+   }
+  .row{
+    margin-top: 30px;
+  }
+  .row a:hover{
+    text-decoration: underline white 2px;
+    transition: 0.7;
+  }
+  footer {
+    background-color: black;
+    color: #DDA15E;
+    text-align: center;
+    padding: 15px 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  i{
+    transition: transform 0.3s;
+  }
+  
+  i:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  }

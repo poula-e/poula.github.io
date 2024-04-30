@@ -1,0 +1,120 @@
+/* Theme 2 mode styles */
+.dark-mode {
+      
+    background-image: url(WhatsApp\ Image\ 2024-04-25\ at\ 4.55.42\ PM.jpeg);
+    --text-color: black ;
+    --icon-color: #fff;
+    ul {
+        list-style: none;
+        background: #333;
+        text-align: center;
+        }
+        ul li {
+        display: inline-block;
+        position: relative;
+        }
+    .logo{
+        color: #007bff;
+        float: left; margin-top: 15px;
+        margin-left: 0px;
+    }
+    .titles{
+        color: #3d2927;
+        text-shadow: 3px 3px 3px #333;
+    }
+    .sectitle{
+      color: black;
+      text-shadow: 3px 3px 3px goldenrod;
+    }
+    /* for footer */
+    footer{
+        height: 300px;
+      background-color: #333; 
+      color: #007bff;
+    }
+    .row{
+        color: #007bff;
+    }
+    /* for footer icons */
+    footer i{
+      margin: 30px;   
+      color: #007bff; 
+    }
+    /* for paragraph and h2 in footer */
+    footer p,h2{
+      font-size: 20px;
+      color: #007bff;   
+    }
+    /* for menu titles  */
+    .content ul a{
+      color: #007bff;
+  
+    } 
+    /* when hover on menu titles */
+    ul a:hover{
+      background-color:#ccc;
+      text-decoration: underline black;
+        transition: 0.5s;text-decoration: underline #007bff 2px;
+
+    }
+   /* for titels of sub menu */
+    ul li a{
+      background-color: #333;
+    }
+}
+#menu {
+    transition: 0.6s;
+  }
+  
+  .sidemenu{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: #333;
+    z-index: 1;
+    padding-top: 100px;
+    overflow: hidden;
+    transition: all 0.3s;
+  }
+  
+  .sidemenu a {
+    padding: 8px;
+    font-size: 30px;
+    color: #007bff;
+    display: block;
+    margin-top:20px ;
+  }
+  .sidemenu a:hover{
+    transition: 0.2s;
+    color: white;
+  }
+  
+  /*  
+  www.youtube.com/c/pythonlife
+  www.youtube.com/c/riadhcoding
+  www.youtube.com/c/pythonblack 
+  */
+  .sidemenu .closebtn{
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 32px;
+  }
+  #mainbox{
+    width: 35px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 8px;
+    color: #fff;
+    font-size: 40px;
+    padding: 4px; 
+  }
+  #active {
+    color: white;
+    background-color: black;
+  }
